@@ -1,0 +1,83 @@
+body{
+  background-color: #1d1d1b;
+  color: #FFF;
+}
+
+div#center_column{
+  background-color: transparent;
+}
+#header{
+  background-image: url("header.png");
+}
+
+#header img{
+  display:none;
+}
+
+div#left_column{
+  background-image: none;
+}
+
+div#right_column{
+  background: none;
+}
+div.article_partial p.excerpt{
+  color: #fff;
+}
+div#center_column h2.headline{
+  color: #009a93;
+}
+div#center_column h2 a,
+a, a:visited {
+  color: #009a93;
+}
+div#frontpage_calendar h2, div#tags h2, div#featured_articles h2{
+  color: #fff;
+}
+div.main_navigation a.inactive{
+ color: #009a93;
+}
+div.main_navigation a.inactive:hover{
+ color: #009a93;
+}
+div.main_navigation a.active{
+  color: #fff;
+}
+
+div#wrapper{
+
+}
+
+div#frontpage_calendar li a, div#tags li a, div#featured_articles li a{
+  color: #009a93;
+}
+
+div#frontpage_calendar li a:hover, div#tags li a:hover, div#featured_articles li a:hover{
+  color: #FFF;
+}
+div.author_and_date {
+  font-style: normal;
+  padding-left: 0;
+  font-family: Georgia;
+}
+#chaosradio_icon{
+  display: block;
+background-image: url("chaosradio.png");
+  width: 156px;
+  height: 67px;
+}
+
+#chaosradio_icon img{
+  display: none;
+}
+
+#search:after{
+  width: 75px;
+  height: 20px;
+  background-image: url("search_button33c3.png");
+  content: "";
+  position: absolute;
+  right: 3px;
+  top: 4px;
+  pointer-events: none;  
+}
